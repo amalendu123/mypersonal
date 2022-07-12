@@ -1,0 +1,35 @@
+#link:hover{
+    text-decoration: underline green;;
+}
+#header{
+    font-family:'Courier New', Courier, monospace;
+}
+#text{
+    width: 60%;
+    top: 20%;
+    
+    left: 50%;
+    border-bottom: 5px solid white;
+    overflow: hidden;
+    animation: animate 2s linear forwards; 
+
+}
+
+.geeks h1 {
+    color: white;
+}
+
+@keyframes animate {
+    0% {
+        width: 0px;
+        height: 0px;
+    }
+    30% {
+        width: 50px;
+        height: 0px;
+    }
+    60% {
+        width: 50px;
+        height: 80px;
+    }
+}
